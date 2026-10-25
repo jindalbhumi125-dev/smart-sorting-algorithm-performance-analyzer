@@ -1,18 +1,22 @@
+
 # Smart Sorting Algorithm Performance Analyzer
 
 ### Design and Analysis of Algorithms (DAA) Mini Project
 
-## Project Overview
-The Smart Sorting Algorithm Performance Analyzer is a Python-based mini project that implements and compares six sorting algorithms. It allows users to select an input size and data pattern, benchmark the algorithms, and receive a recommendation based on their measured execution times.
+## 📌 Project Overview
 
-## Objectives
+The Smart Sorting Algorithm Performance Analyzer is a Python-based mini project that implements and compares six sorting algorithms. Users can select the input size and input pattern, benchmark algorithm performance, and receive a recommendation based on measured execution time.
+
+## 🎯 Objectives
+
 - Implement six classical sorting algorithms.
-- Compare execution times for different input sizes and data patterns.
-- Verify the correctness of each algorithm.
-- Visualize and analyze measured performance.
-- Recommend the fastest observed algorithm for a selected experiment.
+- Compare their execution times across different input sizes.
+- Analyze performance for different input patterns.
+- Verify the correctness of the sorting algorithms.
+- Recommend the fastest measured algorithm for the selected experiment.
 
-## Algorithms Implemented
+## 🧮 Algorithms Implemented
+
 1. Bubble Sort
 2. Selection Sort
 3. Insertion Sort
@@ -20,42 +24,78 @@ The Smart Sorting Algorithm Performance Analyzer is a Python-based mini project 
 5. Quick Sort
 6. Heap Sort
 
-## Technologies and Libraries
+## 🛠️ Technologies Used
+
 - Python
 - Google Colab / Jupyter Notebook
 - Pandas
 - Matplotlib
 - ipywidgets
 
-## Key Features
-- Interactive input-size selection using a slider.
-- Input-pattern selection: random, sorted, reverse-sorted, and nearly sorted.
-- Button-driven algorithm recommendation.
-- Execution-time comparison table and bar chart.
-- Correctness validation against Python's built-in sorting function.
-- CSV export of benchmarking results.
-- Theoretical time and space complexity reference.
+## ✨ Features
 
-## How to Run
+- Interactive input-size selection.
+- Multiple input patterns: random, sorted, reverse-sorted, and nearly sorted.
+- Button-based algorithm recommendation.
+- Execution-time comparison table.
+- Performance visualization.
+- Correctness testing.
+- CSV export of benchmark results.
+- Theoretical time and space complexity comparison.
+
+## 📊 Project Screenshots
+
+### 1. Interactive Interface
+
+![Interactive Interface](screenshots/Interface.png.png)
+
+### 2. Input Values and Configuration
+
+![Input Values](screenshots/Input%20values.png.png)
+
+### 3. Algorithm Performance Analysis
+
+![Algorithm Performance Analysis](screenshots/Algorithm%20performace%20analyze.png.png)
+
+### 4. Algorithm Comparison
+
+![Algorithm Comparison](screenshots/Algorithm.png.png)
+
+## 🚀 How to Run
+
 1. Open the notebook in Google Colab.
 2. Select **Runtime → Run all**.
-3. Scroll to the **Interactive Smart Recommendation** section.
-4. Choose the dataset size and input pattern.
+3. Navigate to the interactive recommendation section.
+4. Choose the input size and input pattern.
 5. Click **Recommend Best Algorithm**.
-6. Review the recommendation, timing table, and performance chart.
+6. Review the recommended algorithm, comparison table, and performance chart.
 
-## Performance Analysis
-Each sorting algorithm is benchmarked three times on the same input dataset. Its average measured execution time is used to rank the algorithms. The results can vary depending on the input pattern, dataset size, and runtime environment.
+## 📈 Performance Analysis
 
-The project also includes a theoretical complexity reference to help interpret the experimental results.
+The project measures sorting execution times and compares algorithm performance under different input conditions. Results can vary depending on the dataset, input pattern, dataset size, and runtime environment.
 
-## Project Files
-- `Smart_Sorting_Algorithm_Performance_Analyzer.ipynb` — main executable notebook.
-- `README.md` — project documentation.
-- Screenshots of the working interface and results can be added to the repository for documentation.
+The fastest measured algorithm in one experiment is not necessarily the fastest for every possible input.
 
-## Conclusion
-This project demonstrates the implementation, correctness testing, benchmarking, and comparison of classical sorting algorithms. Its interactive recommendation feature helps users explore how dataset size and input pattern affect sorting performance.
+## 📁 Project Structure
+
+```text
+smart-sorting-algorithm-performance-analyzer/
+│
+├── README.md
+├── Smart_Sorting_Algorithm_Performance_Analyzer.ipynb
+│
+└── screenshots/
+    ├── README.md
+    ├── Interface.png.png
+    ├── Input values.png.png
+    ├── Algorithm.png.png
+    └── Algorithm performace analyze.png.png
+```
+
+## 🎓 Conclusion
+
+This project demonstrates the implementation, correctness testing, benchmarking, and performance analysis of classical sorting algorithms. Its interactive recommendation feature helps users understand how input size and input patterns influence algorithm performance.
 
 **Project Type:** Academic Mini Project  
 **Subject:** Design and Analysis of Algorithms (DAA)
+
