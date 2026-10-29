@@ -99,3 +99,7 @@ This project demonstrates the implementation, correctness testing, benchmarking,
 **Project Type:** Academic Mini Project  
 **Subject:** Design and Analysis of Algorithms (DAA)
 
+## Project Report
+
+[View Project Report](Bhumi_SmartSorting_Project_Report%20(1).pdf)
+
